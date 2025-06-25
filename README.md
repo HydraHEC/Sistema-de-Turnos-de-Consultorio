@@ -63,3 +63,5 @@ Este paquete tiene las clases:
 
 La Clase `ListaConNombre` estuvo destinada para ayudarme a realizar las salas de atencion en **BackEnd**. En `ClinicaPeriferia` hay un metodo para automatizar la simulacion de: "Turno X a la sala Z", donde para obtener el numero de la sala obtengo el nombre de la Lista haciendole un "substring(2)" (las listas se llaman: sn1,sn2,sn3,etc), estas listas cuentan con un valor booleano **False** o **True**, si la lista contiene **False**: toma el primer turno de la tabla de turnos, cambia su valor booleano a **True** y empieza con otro metodo con un TimerTask simulando la consulta (multiplica los minutos del "TiempoDeEspera" [valor de la clase `ConfiguracionSistema`] por 60000 [60 segundos] sumado a un tiempo de variacion aleatorio que oscila entre 0 y 7 segundos).
 
+---
+## 🤖Como Ejecutar el Programa

@@ -32,7 +32,7 @@ Este Patrón esta presente en las clases:
 - `AppVisualizador`
 - `Observador` (implementacion)
 
-Estas clases tienen la intencion de poder mostrar los turnos en diferentes pantallas fisicas (computadoras de escritorio, moviles, totems, etc) y que los pacientes puedan ver sus Turnos y no perderlos por confusiones internas de la clinica. Separarndo la abstraccion (`Visualizador`) de la implementacion (`Observador`) nos permite añadir e implementar nuevos medios y formas distintas de visualizar a futuro sin modificar la logica principal
+Estas clases tienen la intencion de poder mostrar los turnos en diferentes pantallas fisicas (computadoras de escritorio, moviles, totems, etc) y que los pacientes puedan ver sus Turnos y no perderlos por confusiones internas de la clinica. Separarndo la abstraccion (`Visualizador`) de la implementacion (`Observador`) nos permite añadir e implementar nuevos medios y formas distintas de visualizar a futuro sin modificar la logica principal.
 
 ### 👁️Patrón de Comportamiento: Observer
 Este Patrón esta presente en las clases:
@@ -44,7 +44,7 @@ Este Patrón esta presente en las clases:
 - `Pantalla`
 - `AppMovil`
 
-La razon para usar estas clases se debe a que cuando se emite un nuevo turno, multiples elementos deben reaccionar al evento; mostrarlo en panalla, mandar logs al sistema, actualizar informacion en apps, y no acoplar directamente la logica del turno con cada visualizador que tengamos, lo que nos permite que el sistema este desacoplado y sea escalable a la adicion de nuevos observadores (como pantallas, bots y altavoces) sin modificar la logica de `GestorTurnos`
+La razon para usar estas clases se debe a que cuando se emite un nuevo turno, multiples elementos deben reaccionar al evento; mostrarlo en panalla, mandar logs al sistema, actualizar informacion en apps, y no acoplar directamente la logica del turno con cada visualizador que tengamos, lo que nos permite que el sistema este desacoplado y sea escalable a la adicion de nuevos observadores (como pantallas, bots y altavoces) sin modificar la logica de `GestorTurnos`.
 
 ### 🧑‍🤝‍🧑Patrón libre elegido: Prototype
 Este Patrón esta presente en las clases:
@@ -53,7 +53,7 @@ Este Patrón esta presente en las clases:
 - `TurnoNormal`
 - `TurnoUrgente`
 
-El uso de estas consiste en crear nuevos turnos a partir de las plantillas (normal, urgente) con propiedades predefinidas, y no tener la necesidad de recrearlas desde cero repitiendo la logica varias veces en el programa. Clonar objetos ya configurados es mas rapido que hacerlos a mano, nos ahorramos recursos y logica (volviendola mas clara), y facilita crear a futurno nuevos turnos personalizados (preferente y pediatrico por ejemplo) con un menor esfuerzo y modificacion del sistema
+El uso de estas consiste en crear nuevos turnos a partir de las plantillas (normal, urgente) con propiedades predefinidas, y no tener la necesidad de recrearlas desde cero repitiendo la logica varias veces en el programa. Clonar objetos ya configurados es mas rapido que hacerlos a mano, nos ahorramos recursos y logica (volviendola mas clara), y facilita crear a futurno nuevos turnos personalizados (preferente y pediatrico por ejemplo) con un menor esfuerzo y modificacion del sistema.
 
 ### 📦Paquete Principal
 Este paquete tiene las clases:
@@ -61,5 +61,5 @@ Este paquete tiene las clases:
 - `ListaConNombre` (herramienta personal)
 - `CliMain` (ejeuctable de Interfaz CLI [descartado])
 
-La Clase `ListaConNombre` estuvo destinada para ayudarme a realizar las salas de atencion en **BackEnd**. En `ClinicaPeriferia` hay un metodo para automatizar la simulacion de: "Turno X a la sala Z", donde para obtener el numero de la sala obtengo el nombre de la Lista haciendole un "substring(2)" (las listas se llaman: sn1,sn2,sn3,etc), estas listas cuentan con un valor booleano **False** o **True**, si la lista contiene **False**: toma el primer turno de la tabla de turnos, cambia su valor booleano a **True** y empieza con otro metodo con un TimerTask simulando la consulta (multiplica los minutos del "TiempoDeEspera" [valor de la clase `ConfiguracionSistema`] por 60000 [60 segundos])
+La Clase `ListaConNombre` estuvo destinada para ayudarme a realizar las salas de atencion en **BackEnd**. En `ClinicaPeriferia` hay un metodo para automatizar la simulacion de: "Turno X a la sala Z", donde para obtener el numero de la sala obtengo el nombre de la Lista haciendole un "substring(2)" (las listas se llaman: sn1,sn2,sn3,etc), estas listas cuentan con un valor booleano **False** o **True**, si la lista contiene **False**: toma el primer turno de la tabla de turnos, cambia su valor booleano a **True** y empieza con otro metodo con un TimerTask simulando la consulta (multiplica los minutos del "TiempoDeEspera" [valor de la clase `ConfiguracionSistema`] por 60000 [60 segundos] sumado a un tiempo de variacion aleatorio que oscila entre 0 y 7 segundos).
 

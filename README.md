@@ -76,4 +76,17 @@ Para tener el sistema en Apache Netbeans IDE 25 (el Framework donde programe el 
 
 [TurnosDeConsultorio.zip](src/TurnosDeConsultorio.zip)
  
-en ambos casos, tras entrar al enlace debes hacer click en el texto azul: **view raw**
+en ambos casos, tras entrar al enlace debes hacer click en el texto azul: **View raw**
+
+### Opcion 2: Clonar el Repositorio con Git
+En caso de que tengas "**Git**" instalado, debes entrar a **Git Bash** y clonar este repositorio con estos comandos:
+
+```bash
+git clone https://github.com/HydraHEC/Sistema-de-Turnos-de-Consultorio
+cd Sistema-de-Turnos-de-Consultorio/src
+```
+Una vez clonado y en la carpeta respectiva (y sin salir de la Cli de Git Bash), ejecutas el siguiente comando:
+
+```bash
+java -jar TurnosDeConsultorio.jar
+```

@@ -75,3 +75,5 @@ Para descargar el archivo JAR puedes ir a este mismo repositorio en la carpeta "
 Para tener el sistema en Apache Netbeans IDE 25 (el Framework donde programe el sistema) puedes descargar el ZIP, descomprimirlo e importarlo a tu Netbeans. aqui esta el enlace:
 
 [TurnosDeConsultorio.zip](src/TurnosDeConsultorio.zip)
+ 
+en ambos casos, tras entrar al enlace debes hacer click en el texto azul: **view raw**

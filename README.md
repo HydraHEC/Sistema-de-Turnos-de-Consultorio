@@ -65,3 +65,8 @@ La Clase `ListaConNombre` estuvo destinada para ayudarme a realizar las salas de
 
 ---
 ## 🤖Como Ejecutar el Programa
+Antes de nada, el sistema fue programado en JDK 22, por lo que esnecesario tener instalado esta version de JDK en adelante
+
+### Opcion 1: Descarga directa
+Para descargar el archivo JAR puedes ir a este mismo repositorio en la carpeta "src", o descargarlo en el siguiente enlace:
+[Descargar archivo](src/TurnosDeConsultorio.jar)

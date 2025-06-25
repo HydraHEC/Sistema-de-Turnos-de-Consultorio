@@ -69,4 +69,9 @@ Antes de nada, el sistema fue programado en JDK 22, por lo que esnecesario tener
 
 ### Opcion 1: Descarga directa
 Para descargar el archivo JAR puedes ir a este mismo repositorio en la carpeta "src", o descargarlo en el siguiente enlace:
-[Descargar archivo](src/TurnosDeConsultorio.jar)
+
+[TurnosDeConsultorio.jar](src/TurnosDeConsultorio.jar)
+
+Para tener el sistema en Apache Netbeans IDE 25 (el Framework donde programe el sistema) puedes descargar el ZIP, descomprimirlo e importarlo a tu Netbeans. aqui esta el enlace:
+
+[TurnosDeConsultorio.zip](src/TurnosDeConsultorio.zip)

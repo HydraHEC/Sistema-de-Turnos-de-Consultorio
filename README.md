@@ -10,6 +10,8 @@ Acudieron a mi para que les pueda diseñar/crear un sistema que pueda reolver su
 - posea la misma configuracion entre dispositivos
 - sea facilmente adaptable a formas de visualizacion e interaccion
 
+Con los requisitos que me diero hice un sistema a modo de "piloto" con el cual puedan simular el funcionamiento del sistema final y asi poder recibir su feedback para ajustarlo a lo que necesitan
+
 
 ---
 ## ✅Descripción General del Sistema

@@ -16,5 +16,5 @@ Con los requisitos que me diero hice un sistema a modo de "piloto" con el cual p
 ---
 ## ✅Descripción General del Sistema
 
-Es un sistema programado en Java con interfaz gui, esta cuenta con botones para emitir turnos normales o turnos para urgencias (pacientes traidos en ambulancias generalmente), una tabla con la cola de turnos y un historial donde se ve que turno va a que sala medica y cuando esta se desocupa (tras terminar la visita/sesion del paciente):
+Es un sistema programado en Java con interfaz gui; programada en el IDE Apache Netbeans 25 con JDK 22, esta cuenta con botones para emitir turnos normales o turnos para urgencias (pacientes traidos en ambulancias generalmente), una tabla con la cola de turnos y un historial donde se ve que turno va a que sala medica y cuando esta se desocupa (tras terminar la visita/sesion del paciente). el diseño es sencillo pero funcional, intencionado para en un futuro dividir sus funciones en diferentes pantallas (como suele ser en otras clinicas donde hay varias pantallas mostrando la cola de turnos):
 ![img](img/image01.png)

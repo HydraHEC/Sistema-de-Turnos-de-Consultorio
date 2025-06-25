@@ -85,7 +85,7 @@ En caso de que tengas "**Git**" instalado, debes entrar a **Git Bash** y clonar 
 git clone https://github.com/HydraHEC/Sistema-de-Turnos-de-Consultorio
 cd Sistema-de-Turnos-de-Consultorio/src
 ```
-Una vez clonado y en la carpeta respectiva (y sin salir de la Cli de Git Bash), ejecutas el siguiente comando:
+Una vez clonado y en la carpeta respectiva (y sin salir de la CLi de Git Bash), ejecutas el siguiente comando:
 
 ```bash
 java -jar TurnosDeConsultorio.jar
